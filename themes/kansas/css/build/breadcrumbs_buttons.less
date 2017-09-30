@@ -1,0 +1,83 @@
+ol.breadcrumb {
+	padding-left: @gutters;
+}
+
+ol.breadcrumb li {
+	display: inline-block;
+}
+
+ol.breadcrumb li a {
+	padding: 3px 8px;
+	margin-right: 3px;
+	font-size: 80%;
+	color: @button-text-color !important;
+	border: 1px solid @button-border-color;
+	background-color: @button-background-color;
+}
+
+.btn,
+.btn a,
+a.ccm-block-page-list-read-more {
+	border: 1px solid @button-border-color;
+	font-size: 1rem;
+	touch-action: manipulation;
+	background-color: @button-background-color;
+	border-radius: @border-radius;
+	color: @button-text-color !important;
+}
+.btn:hover,
+.btn:hover a,
+a.ccm-block-page-list-read-more:hover,
+ol.breadcrumb li a.active,
+ol.breadcrumb li a:hover {
+	background-color: @button-background-hover-color;
+	color: @button-text-hover-color !important;
+}
+
+
+a.ccm-block-page-list-read-more:hover {
+	border: 1px solid @button-border-hover-color !important;
+	background-color: @button-background-hover-color !important;
+	color: @button-text-hover-color !important;
+}
+
+.btn {
+    padding: 10px 16px;
+    text-align: center;
+    display: inline-block;
+    border: 1px solid @button-border-color;
+    font-size: 1rem;
+    touch-action: manipulation;
+    background-color: @button-background-color;
+    border-radius: @border-radius;
+    color: @button-text-color;
+}
+.btn:hover{
+        border: 1px solid @button-border-hover-color;
+        background-color: @button-background-hover-color;
+        color: @button-text-hover-color;
+}
+.btn.btn-lg {
+    padding: 16px 24px;
+    font-size: 1.2rem;
+}
+.btn.btn-sm {
+    padding: 6px;
+    font-size: 0.9rem;
+}
+.btn.btn-pill {
+    border-radius: 20px;
+}
+.btn.btn-outline {
+    background: transparent;
+    border: 1px solid;
+}
+.btn.btn-outline.btn-outline-thick {
+    border: 2px solid;
+}
+.btn.btn-block {
+    width: 100%;
+}
+.btn.btn-block + .btn-block {
+    border-top-color: transparent;
+}

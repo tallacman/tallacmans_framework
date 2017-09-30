@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<styles version="1.0">
+
+    <set name="Fonts">
+        <style name="Sitename Text" variable="sitename" type="type"/>
+        <style name="Header Text" variable="header" type="type"/>
+        <style name="Body Text" variable="body" type="type"/>
+    </set>
+
+
+    <set name="Colors/Colours">
+        <style name="Header Sitename Hover Color" variable="header-sitename-hover" type="color"/>
+
+        // Area colors ---------------------------
+        <style name="Header Background Color" variable="header-background" type="color"/>
+        <style name="Sidebar Background Color" variable="sidebar-background" type="color"/>
+        <style name="Main Background Color" variable="main-background" type="color"/>
+        <style name="Footer Background Color" variable="footer-background" type="color"/>
+        <style name="Content Background Color" variable="content-background" type="color"/>
+
+        // Line colors
+        <style name="Top Border Color" variable="top-border" type="color"/>
+        <style name="Center Border Color" variable="center-border" type="color"/>
+        <style name="Bottom Border Color" variable="bottom-border" type="color"/>
+
+        //------- Header Nav
+
+        <style name="Nav Link Color" variable="header-nav-link" type="color"/>
+        <style name="Nav Link Hover Color" variable="header-nav-link-hover" type="color"/>
+        <style name="Nav Link Background Color" variable="header-nav-link-background" type="color"/>
+        <style name="Nav Link Hover Background Color" variable="header-nav-link-background-hover" type="color"/>
+
+        // ------------------------------------------
+
+        <style name="Main Link Color" variable="main-link" type="color"/>
+        <style name="Main Link Hover Color" variable="main-link-hover" type="color"/>
+
+        // ------------------------------------------
+
+        <style name="Footer Link Color" variable="footer-link" type="color"/>
+        <style name="Footer Link Hover Color" variable="footer-link-hover" type="color"/>
+    </set>
+
+    <set name="Buttons">
+        <style name="Button Border Color" variable="button-border" type="color"/>
+        <style name="Button Background Color" variable="button-background" type="color"/>
+        <style name="Button Text Color" variable="button-text" type="color"/>
+
+        <style name="Button Border Hover Color" variable="button-border-hover" type="color"/>
+        <style name="Button Background Hover Color" variable="button-background-hover" type="color"/>
+        <style name="Button Text Hover Color" variable="button-text-hover" type="color"/>
+    </set>
+
+    <set name="Mobile Nav">
+        <style name="Button Background Color" variable="slicknav-button-background" type="color"/>
+        <style name="Button Text Color" variable="slicknav-button-text" type="color"/>
+        <style name="Button Border Color" variable="slicknav-button-border" type="color"/>
+
+        <style name="Slicknav Bottom Border Color" variable="slicknav-bottom-border" type="color"/>
+        <style name="Slicknav Link Color" variable="slicknav-link" type="color"/>
+        <style name="Slicknav Link Background Color" variable="slicknav-link-background" type="color"/>
+
+        <style name="Slicknav Link Hover Color" variable="slicknav-link-hover" type="color"/>
+        <style name="Slicknav Link Background Hover Color" variable="slicknav-link-background-hover" type="color"/>
+
+
+
+    </set>
+
+</styles>

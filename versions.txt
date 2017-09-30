@@ -1,0 +1,19 @@
+1.0 - December 29, 2015 - fixed max-width image problem in agora.less; added styling for page list sorting breadcrumb list.
+
+1.0.1 - December 29, 2015 - image sizing changed from block to inline-block.
+
+1.0.2 - added three up styling for the page list block when using the thumbnail grid
+
+1.0.3 - January 17, 2016 - Updated icon and thumbnail, added a 404 page template. changed c5 version required to 5.7.3
+
+1.0.4 - January 29, 2016 - added wider sidebar template
+
+1.0.5 - February 18, 2016 - beta||| separated out header and footer components for page and theme. added two columns to the wider_sidebar page type, main area
+
+1.0.6 - March 3, 2016 - firefox fix for thumbnail grid display issue.
+
+2.0 - December 26, 2016 - totally rewritten with increased customization and improved typography.
+
+2.0.1 - January 30, 2017 - fixed mobile breakpoint for iPad
+
+2.0.2 - August 22, 2017 added visibility class support from Bootstrap, added styling for feature hover template, moved normalize.css to main.less file. Added custom template for express forms.

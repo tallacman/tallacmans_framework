@@ -1,0 +1,121 @@
+input[type=checkbox],
+input[type=radio] {
+    font-size: 1rem;
+}
+
+input[type=checkbox][disabled],
+input[type=radio][disabled] {
+    cursor: not-allowed;
+}
+
+input[type=checkbox].switch,
+input[type=radio].switch {
+    display: none;
+    position: absolute;
+}
+
+.switch {
+    display: inline-block;
+    height: 1.75rem;
+    user-select: none;
+    border: 1px solid transparent;
+    text-indent: 4.4rem;
+    position: relative;
+    padding: 0;
+    margin: 0;
+    min-width: 4.5rem;
+}
+
+.switch:before {
+    display: block;
+    content: '';
+    height: 1.8rem;
+    width: 4rem;
+    left: 0;
+    top: 0;
+    position: absolute;
+    border: 1px solid #aaa;
+    transition: all 0.4s;
+}
+
+.switch:after {
+    display: block;
+    content: '';
+    position: absolute;
+    height: 1.3rem;
+    width: 1.3rem;
+    top: 0.25rem;
+    left: 0.25rem;
+    transition: left 0.4s;
+    z-index: 1;
+    background: #aaa;
+    border: 1px solid transparent;
+}
+
+.switch.outline:after {
+    border: 1px solid #b7b7b7;
+    background: transparent;
+}
+
+.switch.radius {
+    border-radius: 16px;
+}
+
+.switch.radius:before {
+    border-radius: 16px;
+}
+
+.switch.radius:after {
+    border-radius: 2rem;
+    height: 1.3rem;
+    width: 1.3rem;
+    top: 0.25rem;
+}
+
+.switch:checked + .switch:before {
+    background: @color-blue;
+    border-color: transparent;
+}
+
+.switch:checked + .switch:after {
+    left: calc(4rem - 1.6rem);
+    border-color: transparent;
+    background: #fff;
+}
+
+label input {
+    margin-top: 6px;
+}
+
+.form-control {
+    width: 100%;
+    border: none;
+    padding: 6px 12px;
+    display: block;
+    border: 1px solid #dddddd;
+    transition: box-shadow 0.4s, border-color 0.2s;
+    font-size: 1rem;
+    outline: none;
+    line-height: inherit;
+}
+
+.form-control.radius {
+    border-radius: 4px;
+}
+
+.form-control:focus {
+    box-shadow: 0 0 8px #a1a1a1;
+    border-color: @color-blue;
+}
+
+.form-control option {
+    font-size: 1rem;
+}
+
+fieldset {
+    padding: 0 !important;
+    border: none;
+}
+.form-actions{
+        margin-top: 12px;
+}

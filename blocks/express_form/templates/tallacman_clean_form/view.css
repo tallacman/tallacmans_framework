@@ -1,0 +1,16 @@
+fieldset{ 
+	margin: 0; 
+	border-style: none; 
+	padding: 0  !important ;
+}
+
+span.text-muted.small { 
+	font-style: italic; 
+	font-size: 80%; 
+	color: silver; 
+	padding-left: 15px;
+}
+
+div.form-group { 
+	margin-bottom: 12px;
+}

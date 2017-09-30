@@ -1,0 +1,50 @@
+// main less concatenates all the less files into one import
+@import "https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css";
+
+@import "presets/defaults.less";
+
+@import ~"@{preset-fonts-file}";
+
+// @import "build/juiced_framework/juiced_resets.less";
+
+@import "build/typography.less";
+
+.ccm-page {
+        @import "build/juiced_framework/juiced_components.less";
+        @import "build/juiced_framework/juiced_helpers.less";
+        @import "build/juiced_framework/juiced_grid.less";
+        @import "build/juiced_framework/juiced_breakpoints.less";
+                // bootstrap stuff
+        @import "build/bootstrap/visibility.less";
+        @import "build/bootstrap/tooltip.less";
+
+        @import "build/blocks/faq.less";
+        @import "build/blocks/feature.less";
+        @import "build/blocks/feature-template-hover-description.less";
+        @import "build/blocks/image-slider.less";
+        @import "build/blocks/image.less";
+        @import "build/blocks/next-previous.less";
+        @import "build/blocks/page-list-option-buttons.less";
+        @import "build/blocks/page-list-template-thumbnail-grid.less";
+        @import "build/blocks/page-list.less";
+        @import "build/blocks/page-attribute-display.less";
+        @import "build/blocks/page-title.less";
+        @import "build/blocks/page-title-option-byline.less";
+        @import "build/blocks/testimonial.less";
+        @import "build/blocks/tags.less";
+        @import "build/blocks/topic-list.less";
+        @import "build/blocks/date-navigation.less";
+
+
+
+        @import "build/tallacman_templates/feature_hover.less";
+
+        @import "build/image_slider.less";
+        @import "build/nav.less";
+        @import "build/page_list.less";
+        @import "build/breadcrumbs_buttons.less";
+        @import "build/forms.less";
+
+        @import "build/theme.less";
+        @import "build/slicknav.less";
+}

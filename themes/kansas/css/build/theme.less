@@ -1,0 +1,131 @@
+@media only screen and (max-width:@mobile-menu-activation-size) {
+    .sidebar {
+        display: none;
+    }
+
+    header {
+        text-align: center;
+    }
+}
+
+.full-height {
+    min-height: 100vh;
+}
+
+.sidebar {
+    background-color: @sidebar-background-color;
+}
+
+.border-bottom {
+    border-bottom: 1px solid @top-border-color;
+}
+
+.border-top {
+    border-top: 1px solid @bottom-border-color;
+}
+
+.border-right {
+    border-right: 1px solid @center-border-color;
+}
+
+.sidebar ul,
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar ul li,
+nav li {
+    list-style-type: none;
+}
+.ccm-block-next-previous-previous-link a,
+nav ul.slicknav-one a {
+    margin: 0 0 1px;
+    padding: 2px 8px 2px 12px;
+    color: @header-nav-link-color;
+    display: block;
+    text-decoration: none;
+    background-color: @header-nav-link-background-color;
+}
+
+nav ul.slicknav-one ul li {
+    text-align: right;
+}
+
+nav ul.slicknav-one a.nav-selected,
+nav ul.slicknav-one a:hover {
+    color: @header-nav-link-hover-color;
+    background-color: @header-nav-link-background-hover-color;
+}
+
+ul#menu.slicknav-left ul {
+    padding-left: 10px;
+}
+
+header {
+    background-color: @header-background-color;
+}
+
+main {
+    background-color: @main-background-color;
+}
+
+footer {
+    font-size: 90%;
+    background-color: transparent;
+}
+
+body {
+    background-color: @footer-background-color;
+}
+
+.content {
+    background-color: @content-background-color;
+}
+// sitename size et al
+
+header .sitename a {
+    color: @sitename-type-color;
+    padding: 10px 0;
+    display: block;
+    text-decoration: none;
+    font-family: @sitename-type-font-family;
+    font-size: @sitename-type-font-size;
+    line-height: @sitename-type-font-leading-size;
+    color: @sitename-type-color;
+    font-weight: @sitename-type-font-weight;
+}
+
+header .sitename a:hover {
+    color: @header-sitename-hover-color;
+}
+.ccm-block-next-previous-previous-link a,
+.sidebar li a {
+    font-weight: 400;
+    text-decoration: none;
+    color: @header-nav-link-color;
+    font-size: inherit !important;
+}
+
+.sidebar a:hover {
+    color: @header-nav-link-hover-color;
+}
+
+
+// new element in v8
+
+footer #ccm-account-menu a {
+    color: #454646;
+}
+// 404 and 403 pages
+
+h1.error {
+    font-size: 5em;
+    text-align: center;
+    margin-top: 25px;
+}
+
+// v8 form has fieldset
+.form-actions{
+	margin: 25px 0;
+}
