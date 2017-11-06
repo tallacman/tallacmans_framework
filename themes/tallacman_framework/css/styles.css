@@ -1,0 +1,15 @@
+/* @override http://localhost:8888/perfecto/packages/theme_kansas/themes/kansas/css/styles.css */
+
+
+.fixed{
+	position: fixed;
+	background: whitesmoke;
+	z-index: 12;
+	top: 0;
+	left: 0;
+}
+
+
+.inner-padding{ 
+	padding: 50px;
+}

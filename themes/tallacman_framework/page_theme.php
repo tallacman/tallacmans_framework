@@ -1,5 +1,5 @@
 <?php
-namespace Concrete\Package\ThemeKansas\Theme\Kansas;
+namespace Concrete\Package\TallacmanFramework\Theme\TallacmanFramework;
 use Concrete\Core\Page\Theme\Theme;
 class PageTheme extends Theme {
 
@@ -37,7 +37,7 @@ class PageTheme extends Theme {
 
     public function getThemeResponsiveImageMap() {
         return array(
-            'xlarge' => '1100px',
+            'xlarge' => '1200px',
             'large' => '992px',
             'medium' => '768px',
             'small' => '0'
