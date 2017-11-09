@@ -39,8 +39,8 @@ class Controller extends Package
 
 
     // Install Single Pages
-    $sp = SinglePage::add('/dashboard/tallacman_framework', $pkg);
-    $sp = SinglePage::add('/dashboard/tallacman_framework/settings', $pkg);
+    $sp = SinglePage::add('/dashboard/pages/tallacman_framework', $pkg);
+    //$sp = SinglePage::add('/dashboard/pages/tallacman_framework/settings', $pkg);
 
    if(!PageTemplate::getByHandle('left_sidebar')) {
 		PageTemplate::add('left_sidebar', 'Left Sidebar', 'left_sidebar.png', $pkg);

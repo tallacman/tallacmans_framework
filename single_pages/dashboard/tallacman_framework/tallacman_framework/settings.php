@@ -1,14 +1,14 @@
 <?php
 /**
  * @project:   Bitter Theme for conrete5.
- *
+ * 
  * @author     Fabian Bitter
  * @copyright  (C) 2017 Bitter Webentwicklung (www.bitter-webentwicklung.de)
  * @version    1.2.1
  */
 defined('C5_EXECUTE') or die('Access Denied.');
 
-Core::make('help')->display(t("Welcome."));
+Core::make('help')->display(t("For support requests please contact kontakt@bitter-webentwicklung.de."));
 
 $pageSelector = Core::make('helper/form/page_selector');
 ?>
@@ -16,7 +16,6 @@ $pageSelector = Core::make('helper/form/page_selector');
 
 <div class="row">
     <div class="col-xs-12">
-        yo boss
         <form action="#" method="post">
             <fieldset>
                 <legend>
@@ -50,3 +49,4 @@ $pageSelector = Core::make('helper/form/page_selector');
         </form>
     </div>
 </div>
+

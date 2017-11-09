@@ -12,7 +12,7 @@ namespace Concrete\Package\TallacmanFramework\Controller\SinglePage\Dashboard;
 
 use \Concrete\Core\Page\Controller\DashboardPageController;
 
-class BitterTheme extends DashboardPageController {
+class TallacmanFramework extends DashboardPageController {
 
     public function view() {
         $this->redirect("/dashboard/tallacman_framework/settings");
