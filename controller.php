@@ -15,7 +15,7 @@ class Controller extends Package
 
     protected $pkgHandle = 'tallacman_framework';
     protected $appVersionRequired = '5.7.3';
-    protected $pkgVersion = '0.9';
+    protected $pkgVersion = '0.7';
     protected $pkgAllowsFullContentSwap = false;
 
 

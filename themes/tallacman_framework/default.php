@@ -22,7 +22,7 @@ $this->inc('elements/header.php'); ?>
     </div>
 </header>
 
-<header class="container full-width site-name-header items-center justify-center sticky">
+<header class="container full-width site-name-header items-center justify-center sticky"> <!--   sticky will keep this area in place on scroll down  --> 
     <div class="col-12 col-sm-10">
         <div class="container gutters justify-space-between items-center">
             <div class="col-auto sitename">

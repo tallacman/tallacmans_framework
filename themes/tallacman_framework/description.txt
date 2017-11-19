@@ -1,2 +1,2 @@
-Kansas Theme
-Dorothy. Toto.
+Tallacman Framework
+A starter framework for concrete5 themes using Juicedcss

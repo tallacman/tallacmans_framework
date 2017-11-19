@@ -1,5 +1,5 @@
 <?php
-namespace Concrete\Package\ThemeKansas\Src;
+namespace Concrete\Package\TallacmanFramework\Src;
 use Concrete\Core\Page\Theme\GridFramework\GridFramework;
 
 class Juiced extends GridFramework
@@ -80,22 +80,22 @@ class Juiced extends GridFramework
 
     public function getPageThemeGridFrameworkHideOnExtraSmallDeviceClass()
     {
-        return 'hidden-xs';
+        return 'xs-display-none';
     }
 
     public function getPageThemeGridFrameworkHideOnSmallDeviceClass()
     {
-        return 'hidden-sm';
+        return 'sm-display-none';
     }
 
     public function getPageThemeGridFrameworkHideOnMediusmeviceClass()
     {
-        return 'hidden-sm';
+        return 'md-display-none';
     }
 
     public function getPageThemeGridFrameworkHideOnLargeDeviceClass()
     {
-        return 'hidden-lg';
+        return 'lg-display-none';
     }
 
     public function supportsNesting(){
