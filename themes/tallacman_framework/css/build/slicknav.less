@@ -6,6 +6,7 @@
 
 .slicknav_menu {
     display: none;
+
 }
 @media screen and (max-width: @mobile-menu-activation-size) {
     header h1 {
@@ -53,11 +54,11 @@ div.slicknav_brand {
     padding: 12px;
     line-height: 1.125em;
     cursor: pointer;
-    margin: 0 12px 6px 5px;
+    margin: 0 @gutters / 2 6px 5px;
     text-decoration: none;
     background-color: @slicknav-button-background-color;
     border-radius: @border-radius;
-    border: 1px solid @slicknav-button-border-color;
+    //border: 1px solid @slicknav-button-border-color;
 }
 
 .slicknav_btn .slicknav_icon-bar + .slicknav_icon-bar {
@@ -145,7 +146,6 @@ div.slicknav_brand {
 .slicknav_nav {
     margin: 0;
     padding: 0;
-    font-size: 0.875em;
     list-style: none;
     overflow: hidden;
 }
@@ -187,6 +187,7 @@ a.slicknav_item.slicknav_row:hover a {
 
 .slicknav_nav .slicknav_row {
     padding: 5px 10px 5px @gutters;
+    position: relative;
 }
 
 .slicknav_nav .slicknav_txtnode {
