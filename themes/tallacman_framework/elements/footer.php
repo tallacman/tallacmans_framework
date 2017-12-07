@@ -13,7 +13,7 @@
     easingClose: 'swing',
     closedSymbol: '▼',
     openedSymbol: '▲',
-    prependTo: '#slicknav',
+    prependTo: '#slicknav', 
     appendTo: '',
     parentTag: 'a',
     closeOnClick: false,
@@ -30,7 +30,7 @@
     </script>
 
 <!--   this is for the sticky nav feature if enabled  -->
-<!--   add class "sticky" to area desired  --> 
+<!--   add class "sticky" to area desired  -->
 <script type="text/javascript">
     $(window).scroll(function(){
     var sticky = $('.sticky'),

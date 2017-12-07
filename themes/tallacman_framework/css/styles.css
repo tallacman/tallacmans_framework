@@ -1,4 +1,4 @@
-/* @override http://localhost:8888/perfecto/packages/theme_kansas/themes/kansas/css/styles.css */
+/* @override http://localhost:8888/tman_frame/packages/tallacman_framework/themes/tallacman_framework/css/styles.css */
 
 
 .fixed{
@@ -13,3 +13,9 @@
 .inner-padding{ 
 	padding: 50px;
 }
+
+header.header{ 
+	height: 130px; 
+	
+}
+

@@ -12,7 +12,7 @@ class Juiced extends GridFramework
 
     public function getPageThemeGridFrameworkRowStartHTML()
     {
-        return '<div class="container gutters">';
+        return '<div class="container full-width gutters">';
     }
 
     public function getPageThemeGridFrameworkRowEndHTML()
@@ -22,12 +22,12 @@ class Juiced extends GridFramework
 
     public function getPageThemeGridFrameworkContainerStartHTML()
     {
-        return '';
+        return '<div class="container full-width gutters">';
     }
 
     public function getPageThemeGridFrameworkContainerEndHTML()
     {
-        return '';
+        return '</div>';
     }
 
 
@@ -99,6 +99,6 @@ class Juiced extends GridFramework
     }
 
     public function supportsNesting(){
-        return 'false';
+        return 'true';
     }
 }

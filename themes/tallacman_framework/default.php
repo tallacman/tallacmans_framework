@@ -1,10 +1,14 @@
 <?php        defined('C5_EXECUTE') or die(_("Access Denied."));
 $this->inc('elements/header.php'); ?>
 
+<div id="slicknav" class="sticky full-width"> <!--   fixed on scroll via the sticky class : full-width  -->
+<!--   this holds the mobile menu  -->
+</div>
 
-<header class="container full-width super-header justify-center">
+
+<header class="container full-width super-header justify-center cta">
     <div class="col-12 col-sm-10">
-        <div class="container gutters justify-space-between items-center">
+        <div class="container justify-space-between items-center">
             <div class="col-auto">
                 <?php
                 $a = new GlobalArea('Call To Action One');
@@ -21,13 +25,11 @@ $this->inc('elements/header.php'); ?>
         </div>
     </div>
 </header>
-<div id="slicknav">
-<!--   this holds the mobile menu  --> 
-</div>
 
-<header class="container full-width site-name-header items-center justify-center sticky"> <!--   sticky will keep this area in place on scroll down  -->
+
+<header class="container full-width site-name-header items-center justify-center sticky header"> <!--   sticky will keep this area in place on scroll down  -->
     <div class="col-12 col-sm-10">
-        <div class="container gutters justify-space-between items-center">
+        <div class="container justify-space-between items-center">
             <div class="col-auto sitename">
                 <?php
                 $a = new GlobalArea('Header Site Title');
@@ -56,12 +58,9 @@ $this->inc('elements/header.php'); ?>
 
 </header>
 
-
-
-
         <main class="container full-width content justify-center">
             <div class="col-10">
-                <div class="container gutters">
+                <div class="container">
                     <div class="col-12">
                         <?php
                         $a = new Area('Main');
@@ -77,17 +76,25 @@ $this->inc('elements/header.php'); ?>
 
         	<footer class="container full-width">
         		<div class="col-12">
-        			<footer class="container gutters-all border-top">
+        			<footer class="container border-top">
         				<div class="col-12 col-sm-6">
                             <?php
-                            $a = new GlobalArea('Global Copyright');
+                            $a = new GlobalArea('Global Footer One');
                             $a->display();
+                            ?>
+                            <?php
+                            $a = new Area('Footer One');
+                            $a->display($c);
                             ?>
         				</div>
         				<div class="col-6 col-sm-3 text-right">
+                            <?php
+                            $a = new Area('Footer Two');
+                            $a->display($c);
+                            ?>
         					<?php
-        					$a = new Area('Login');
-        					$a->display($c);
+        					$a = new GlobalArea('Global Footer Two');
+        					$a->display();
         					?>
         				</div>
         				<div id="ccm-account-menu-container" class="col-6 col-sm-3">
@@ -98,7 +105,6 @@ $this->inc('elements/header.php'); ?>
         	</footer>
 
         </div>
-
 
 
 
