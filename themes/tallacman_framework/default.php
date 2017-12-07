@@ -6,8 +6,8 @@ $this->inc('elements/header.php'); ?>
 </div>
 
 
-<header class="container full-width super-header justify-center cta">
-    <div class="col-12 col-sm-10">
+<header class="container full-width super-header justify-center cta gutters">
+    <div class="col-12">
         <div class="container justify-space-between items-center">
             <div class="col-auto">
                 <?php
