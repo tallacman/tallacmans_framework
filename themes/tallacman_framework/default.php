@@ -6,9 +6,9 @@ $this->inc('elements/header.php'); ?>
 </div>
 
 
-<header class="container full-width super-header justify-center cta gutters">
+<header class="container full-width super-header justify-center cta">
     <div class="col-12">
-        <div class="container justify-space-between items-center">
+        <div class="container justify-space-between items-center gutters">
             <div class="col-auto">
                 <?php
                 $a = new GlobalArea('Call To Action One');
@@ -28,8 +28,8 @@ $this->inc('elements/header.php'); ?>
 
 
 <header class="container full-width site-name-header items-center justify-center sticky header"> <!--   sticky will keep this area in place on scroll down  -->
-    <div class="col-12 col-sm-10">
-        <div class="container justify-space-between items-center">
+    <div class="col-12 col-sm-12">
+        <div class="container justify-space-between items-center gutters">
             <div class="col-auto sitename">
                 <?php
                 $a = new GlobalArea('Header Site Title');
@@ -59,8 +59,8 @@ $this->inc('elements/header.php'); ?>
 </header>
 
         <main class="container full-width content justify-center">
-            <div class="col-10">
-                <div class="container">
+            <div class="col-12">
+                <div class="container gutters">
                     <div class="col-12">
                         <?php
                         $a = new Area('Main');
@@ -76,7 +76,7 @@ $this->inc('elements/header.php'); ?>
 
         	<footer class="container full-width">
         		<div class="col-12">
-        			<footer class="container border-top">
+        			<div class="container border-top gutters">
         				<div class="col-12 col-sm-6">
                             <?php
                             $a = new GlobalArea('Global Footer One');
@@ -100,7 +100,7 @@ $this->inc('elements/header.php'); ?>
         				<div id="ccm-account-menu-container" class="col-6 col-sm-3">
         					<!--  this is new in c5 v8     -->
         				</div>
-        			</footer>
+        			</div>
         		</div>
         	</footer>
 
