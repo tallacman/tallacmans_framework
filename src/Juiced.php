@@ -4,6 +4,9 @@ use Concrete\Core\Page\Theme\GridFramework\GridFramework;
 
 class Juiced extends GridFramework
 {
+    public function supportsNesting(){
+        return 'true';
+    }
 
   public function getPageThemeGridFrameworkName()
     {
@@ -12,7 +15,7 @@ class Juiced extends GridFramework
 
         public function getPageThemeGridFrameworkRowStartHTML()
         {
-            return '<div class="container full-width gutters">';
+            return '<div class="container full-width gutters row-start">';
         }
 
         public function getPageThemeGridFrameworkRowEndHTML()
@@ -22,7 +25,7 @@ class Juiced extends GridFramework
 
         public function getPageThemeGridFrameworkContainerStartHTML()
         {
-            return '<div class="container gutters">';
+            return '<div class="container gutters container-start">';
         }
 
         public function getPageThemeGridFrameworkContainerEndHTML()
@@ -53,18 +56,7 @@ class Juiced extends GridFramework
     public function getPageThemeGridFrameworkColumnOffsetClasses()
     {
         $offsets = array(
-            'col-sm-push-1',
-            'col-sm-push-2',
-            'col-sm-push-3',
-            'col-sm-push-4',
-            'col-sm-push-5',
-            'col-sm-push-6',
-            'col-sm-push-7',
-            'col-sm-push-8',
-            'col-sm-push-9',
-            'col-sm-push-10',
-            'col-sm-push-11',
-            'col-sm-push-12',
+
         );
         return $offsets;
     }
@@ -98,7 +90,5 @@ class Juiced extends GridFramework
         return 'lg-display-none';
     }
 
-    public function supportsNesting(){
-        return 'true';
-    }
+
 }
