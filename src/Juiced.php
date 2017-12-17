@@ -56,13 +56,13 @@ class Juiced extends GridFramework
     public function getPageThemeGridFrameworkColumnOffsetClasses()
     {
         $offsets = array(
-
+            // no offsets
         );
         return $offsets;
     }
     public function getPageThemeGridFrameworkColumnAdditionalClasses()
     {
-        return 'nested-gutters';
+        return 'nested-columns';
     }
 
     public function getPageThemeGridFrameworkColumnOffsetAdditionalClasses()
